@@ -1,0 +1,18 @@
+.main-container{
+  width: full;
+  box-shadow: 2px 5px 20px gray;
+  height: full;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+  padding: 50px;
+  background: #b5cef7;
+}
+
+.top-banner{
+	height: 100px;
+	width: full;
+	text-align: center;
+	background: #fff;
+}
