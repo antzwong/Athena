@@ -33,3 +33,7 @@ const actionlogSchema = new Schema(
         timestamps: true,
     }
 );
+
+const Actionlog = mongoose.model('actionlog', actionlogSchema);
+
+module.exports = Actionlog;
