@@ -10,7 +10,7 @@ function NavBar(){
 	return(
 		<>
 			<nav className = 'nav-menu'>
-				<ul className = 'nave-menu-items'>
+				<ul className = 'nav-menu-items'>
 					{SideBarData.map((item, index)=>{
 						return(
 							<li key={index} className={item.cName}>

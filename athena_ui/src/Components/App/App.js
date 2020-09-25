@@ -8,15 +8,19 @@ const App = () => {
 	return (
 		<div className = 'main-container'>
 			<div className = 'top-banner'>
-			<h>Welcome User6969</h>
+				<h1>Welcome Neil Tramsen</h1>
 			</div>
-			<Router>
-				<NavBar/>
-				<Switch>
-					<Route path='/' />
-				</Switch>
-			</Router>
-			<Checkout/>
+			<div className='router'>
+				<Router>
+					<NavBar/>
+					<Switch>
+						<Route path='/' />
+					</Switch>
+				</Router>
+			</div>
+			<div className='checkout'>
+				<Checkout className = 'checkout'/>
+			</div>
 		</div>
 	);
 

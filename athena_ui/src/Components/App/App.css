@@ -1,18 +1,37 @@
+body{
+  background-color: #eaebed;
+}
+
 .main-container{
   width: full;
-  box-shadow: 2px 5px 20px gray;
   height: full;
+  box-shadow: 2px 5px 20px gray;
   margin-top: 100px;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 100px;
   padding: 50px;
-  background: #b5cef7;
+  background-color: #01a7c2;
+  border-radius: 4px;
 }
 
 .top-banner{
-	height: 100px;
+	height: 50px;
+  font-size: 20px;
 	width: full;
 	text-align: center;
-	background: #fff;
+	background-color: #EAEBED;
+  border-radius: 4px;
+}
+
+.router{
+  float: left;
+  height: 400px;
+  background-color: #01a7c2;
+}
+
+.checkout{
+  float: right;
+  padding: 20px;
+  background-color: #01a7c2;
 }
