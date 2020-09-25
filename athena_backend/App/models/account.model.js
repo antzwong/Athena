@@ -16,3 +16,7 @@ const accountSchema = new Schema(
         }
     }
 );
+
+const Account = mongoose.model('account', accountSchema);
+
+module.exports = Account;
