@@ -4,6 +4,12 @@ const Schema = mongoose.Schema;
 
 const administratorSchema = new Schema(
     {
+        // the Id of the account to give privileges to
+        accountID:
+        {
+            type: String,
+            required: true,
+        }
         privileges:
         {
             type: Boolean, 
