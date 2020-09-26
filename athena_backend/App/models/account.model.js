@@ -13,6 +13,16 @@ const accountSchema = new Schema(
         {
             type: String,
             required: true,
+        },
+        name:
+        {
+            type: String,
+            required: false,
+        },
+        email:
+        {
+            type: String,
+            required: true,
         }
     }
 );
