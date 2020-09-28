@@ -1,3 +1,4 @@
 
 # ignore node_modules
-/athena_ui/node_modules
+athena_ui/node_modules
+package-lock.json
