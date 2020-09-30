@@ -1,37 +1,41 @@
-import React, {useState} from 'react';
+import React from 'react';
 import * as FaIcons from 'react-icons/fa';
-import * as AiIcons from 'react-icons/ai';
-import * as IoIcons from 'react-icons/io';
 
 export const SideBarData = [
 	{
+		title: 'Dashboard',
+		path: '/dashboard',
+		icon: <FaIcons.FaHome size={30}/>,
+		cName: 'nav-text'
+	},
+	{
 		title: 'Checkout',
 		path: '/checkout',
-		icon: <AiIcons.AiFillHome/>,
+		icon: <FaIcons.FaClipboardCheck size={30}/>,
 		cName: 'nav-text'
 	},
 	{
 		title: 'Search',
 		path: '/search',
-		icon: <AiIcons.AiFillHome/>,
+		icon: <FaIcons.FaSearch size={30}/>,
 		cName: 'nav-text'
 	},
 	{
 		title: 'My Items',
 		path: '/myitems',
-		icon: <AiIcons.AiFillHome/>,
+		icon: <FaIcons.FaClipboardList size={30}/>,
 		cName: 'nav-text'
 	},
 	{
 		title: 'My Account',
 		path: '/myaccount',
-		icon: <AiIcons.AiFillHome/>,
+		icon: <FaIcons.FaUserCircle size={30}/>,
 		cName: 'nav-text'
 	},
 	{
 		title: 'Logout',
 		path: '/logout',
-		icon: <AiIcons.AiFillHome/>,
+		icon: <FaIcons.FaDoorOpen size={30}/>,
 		cName: 'nav-text'
 	}
 ];
