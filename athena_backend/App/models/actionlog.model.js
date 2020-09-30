@@ -26,7 +26,8 @@ const actionlogSchema = new Schema(
         // the status of rather or not the equipment had been returned
         borrowedstatus:
         {
-            type: Boolean, default:'false'
+            type: Boolean, 
+            default:'false',
         },
     },
     {
