@@ -15,24 +15,22 @@ const App = () => {
 			<div className = 'top-banner'>
 				<h1>Welcome Neil Tramsen</h1>
 			</div>
-			<div className='router'>
-				<Router>
-					<div className = 'navbar'>
-						<NavBar/>
-					</div>
-					<div className = 'display'>
-						<Switch>
-							<Route exact path='/' component={Dashboard} />
-							<Route exact path='/dashboard' component={Dashboard} />
-							<Route exact path='/checkout' component={Checkout} />
-							<Route exact path='/search' component={Search} />
-							<Route exact path='/myitems' component={Items} />
-							<Route exact path='/myaccount' component={Account} />
-							<Route exact path='/logout' component={Logout} />
-						</Switch>
-					</div>
-				</Router>
-			</div>
+			<Router>
+				<div className = 'navbar'>
+					<NavBar/>
+				</div>
+				<div className = 'content'>
+					<Switch>
+						<Route exact path='/' component={Dashboard} />
+						<Route exact path='/dashboard' component={Dashboard} />
+						<Route exact path='/checkout' component={Checkout} />
+						<Route exact path='/search' component={Search} />
+						<Route exact path='/myitems' component={Items} />
+						<Route exact path='/myaccount' component={Account} />
+						<Route exact path='/logout' component={Logout} />
+					</Switch>
+				</div>
+			</Router>
 			{/*<div className='checkout'>
 				<Checkout className = 'checkout'/>
 			</div>*/}

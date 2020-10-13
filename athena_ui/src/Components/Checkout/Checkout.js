@@ -1,4 +1,4 @@
-import React, {useContext, useState} from 'react';
+import React, {useState} from 'react';
 import './style.css';
 
 const Checkout = ()=>{
@@ -24,6 +24,9 @@ const Checkout = ()=>{
 
 	return(
 		<div className='checkout-container'>
+			<div className='checkout-header'>
+				<p>Checkout a new item:</p>
+			</div>
 			<input className = 'checkout-form'
 				placeholder = 'Enter item name'
 				type = 'text'
