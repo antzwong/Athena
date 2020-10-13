@@ -1,7 +1,7 @@
 
 # ignore node_modules
 # keep package-lock https://stackoverflow.com/questions/44206782/do-i-commit-the-package-lock-json-file-created-by-npm-5
-node_modules
+node_modules/
 
 athena_ui/node_modules
 .DS_Store
